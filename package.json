@@ -1,0 +1,38 @@
+{
+  "name": "github-dark-custom",
+  "displayName": "GitHub Dark Custom",
+  "description": "Blend of GitHub Dark and Dark Default",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/github-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/primer/github-vscode-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "github",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHub Dark And Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github-dark-and-default-color-theme.json"
+      },
+      {
+        "label": "GitHub Dark And Dimmed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github-dark-and-dimmed-color-theme.json"
+      }
+    ]
+  }
+}
